@@ -14,7 +14,7 @@ namespace Snake
 
         public Point()
         {
-
+            
         }
 
         public Point(int _x, int _y, char _sym)
@@ -28,41 +28,6 @@ namespace Snake
         {
             Console.SetCursorPosition(x, y);
             Console.Write(sym);
-        }
-
-
-        //говнокод здесь
-        public static void Main()
-        {
-            int x = 1;
-            Func1(x);
-        }
-
-        public static void Func1(int value);
-        {
-
-        }
-
-        public static void Main()
-        {
-            int x = 1;
-            Func2(x);
-        }
-
-        public static void Func2(int value);
-        {
-            value = Value + 1;
-        }
-
-    public static void Main()
-    {
-        int x = 1;
-        Func3(x);
-    }
-
-    public static void Func3(int value);
-        {
-            x = x + 1;
         }
     }
 }
